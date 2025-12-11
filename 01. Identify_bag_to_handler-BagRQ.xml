@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Liquid Studio (https://www.liquid-technologies.com) -->
+<!--
+Context is set by
+- Bag (identifier, owner)
+- Carrying Segment (details the transportation)
+-->
+<IATA_Baggage_BagRQ xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRQ" 
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRQ https://pinggg.mywire.org/25.2/IATA_Baggage_BagRQ.xsd">
+    <BagSegment>
+        <Bag>
+            <BagTag>
+                <IssuerCode>027</IssuerCode>
+                <SerialNumberID>318374</SerialNumberID>
+                <UsageCode>5</UsageCode>
+            </BagTag>
+            <Owner>
+                <GivenName>PATRICK</GivenName>
+                <Surname>KANE</Surname>
+            </Owner>
+        </Bag>
+        <BaggageProcess>
+            <BaggageEvent>
+                <Facility>
+                    <Station>
+                        <IATA_LocationCode>AAA</IATA_LocationCode>
+                    </Station>
+                </Facility>
+            </BaggageEvent>
+            <BaggageProcessCode>L</BaggageProcessCode>
+        </BaggageProcess>
+        <CarryingSegment>
+            <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+            <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+            <CarrierDesigCode>AS</CarrierDesigCode>
+            <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+            <FlightNumberText>0801</FlightNumberText>
+        </CarryingSegment>
+        <ClassOfServiceCode>J</ClassOfServiceCode>
+        <Exception>
+            <ExceptionCode>PRIO</ExceptionCode>
+        </Exception>
+        <SegmentSecurityControls>
+            <AuthorityToLoadInd>true</AuthorityToLoadInd>
+            <BagTagStatusCode>A</BagTagStatusCode>
+            <PaxStatus>
+                <BoardingStatusCode>C</BoardingStatusCode>
+                <CheckInSeqNumber>46</CheckInSeqNumber>
+                <SeatID>01D</SeatID>
+                <SecurityProfileStatusInd>false</SecurityProfileStatusInd>
+            </PaxStatus>
+        </SegmentSecurityControls>
+    </BagSegment>
+</IATA_Baggage_BagRQ>
