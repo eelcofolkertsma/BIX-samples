@@ -8,7 +8,7 @@ Context is set by
 <IATA_Baggage_BagRQ xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRQ" 
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRQ https://pinggg.mywire.org/25.2/IATA_Baggage_BagRQ.xsd">
     <BagSegment>
-        <Bag>
+        <Bag>                                                   <!--CONTEXT-->
             <BagTag>
                 <IssuerCode>027</IssuerCode>
                 <SerialNumberID>318374</SerialNumberID>
@@ -29,7 +29,7 @@ Context is set by
             </BaggageEvent>
             <BaggageProcessCode>L</BaggageProcessCode>
         </BaggageProcess>
-        <CarryingSegment>
+        <CarryingSegment>                                       <!--CONTEXT-->
             <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
             <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
             <CarrierDesigCode>AS</CarrierDesigCode>
