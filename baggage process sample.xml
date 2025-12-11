@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio (https://www.liquid-technologies.com) -->
+<!--
+Baggage process is indicated through baggage process element
+-->
+<IATA_Baggage_BagRS xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRS" 
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_BagRS https://pinggg.mywire.org/25.2/IATA_Baggage_BagRS.xsd">
+    <BagSegment>
+        <Bag>
+            <BagTag>
+                <IssuerCode>027</IssuerCode>
+                <SerialNumberID>318374</SerialNumberID>
+                <UsageCode>5</UsageCode>
+            </BagTag>
+            <Owner>
+                <GivenName>PATRICK</GivenName>
+                <Surname>KANE</Surname>
+            </Owner>
+        </Bag>
+<!--HERE--><BaggageProcess>
+            <BaggageEvent>
+                <ActualDateTime>2024-09-09T15:03:37</ActualDateTime>
+                <Facility>
+                    <Station>
+                        <IATA_LocationCode>AAA</IATA_LocationCode>
+                    </Station>
+                </Facility>
+            </BaggageEvent>
+            <BaggageProcessCode>L</BaggageProcessCode>
+            <BaggageSubProcessCode>Screen</BaggageSubProcessCode>
+            <BaggageSubSubProcessCode>Screen</BaggageSubSubProcessCode>
+        </BaggageProcess>
+        <CarryingSegment>
+            <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+            <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+            <CarrierDesigCode>AS</CarrierDesigCode>
+            <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+            <FlightNumberText>0801</FlightNumberText>
+        </CarryingSegment>
+        <ClassOfServiceCode>J</ClassOfServiceCode>
+        <SegmentSecurityOutcomes>
+            <ScreeningEntityID>TSA123</ScreeningEntityID>
+            <ScreeningMethodCode>AT</ScreeningMethodCode>
+            <ScreeningResultStatusCode>CLR</ScreeningResultStatusCode>
+        </SegmentSecurityOutcomes>
+    </BagSegment>
+</IATA_Baggage_BagRS>
