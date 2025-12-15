@@ -9,5 +9,9 @@ bag identifiers, carrying segment, inbound or onward segment for transfer cases.
 ## baggage process
 plot to baggage process model to determine process, sub-process and sub-sub-process values
 
+## place and time of event
+capture place and time and map to airport baggage facility in the baggage event element
+optionally one may want to advise the scanner that made the observation
+
 
 
